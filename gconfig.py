@@ -3,7 +3,7 @@ monkey.patch_all()
 import multiprocessing
 debug = True
 loglevel = 'debug'
-bind = '127.0.0.1:8999'
+bind = '127.0.0.1:5000'
 pidfile = 'log/gunicorn.pid'
 logfile = 'log/debug.log'
 workers = multiprocessing.cpu_count() * 2 + 1
