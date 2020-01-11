@@ -1,9 +1,9 @@
 Python Flask订餐系统
 =====================
-##启动
+## 启动
 * export ops_config=local|production && python manage.py runserver
 
-##flask-sqlacodegen
+## flask-sqlacodegen
 
     flask-sqlacodegen 'mysql://root:123456@127.0.0.1/food_db' --outfile "common/models/model.py"  --flask
     flask-sqlacodegen 'mysql://root:123456@127.0.0.1/food_db' --tables user --outfile "common/models/user.py"  --flask
@@ -36,8 +36,8 @@ Python Flask订餐系统
     });
 
 
-#python manager.py runjob -m stat/daily -a member/food
+# python manager.py runjob -m stat/daily -a member/food
 
-##可参考资料
-* [python-Flask（jinja2）语法：过滤器](https://www.jianshu.com/p/3127ac233518)
-* [SQLAlchemy 各种查询语句写法](https://wxnacy.com/2017/08/14/python-2017-08-14-sqlalchemy-filter/)
+## 可参考资料
+* [python-Flask（jinja2）语法：过滤器](https://www.jianshu.com/p/3127ac233518) *
+* [SQLAlchemy 各种查询语句写法](https://wxnacy.com/2017/08/14/python-2017-08-14-sqlalchemy-filter/) *
